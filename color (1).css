@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.2s ease;
+    background-color: #000000;
+  }
+
+  #container {
+    text-align: center;
+    color: white; /* Set text color to white */
+  }
+
+  #heading {
+    background-color: black; /* Set background color for heading */
+    padding: 10px; /* Add padding to heading */
+    font-size: 50px;
+  }
+
+  #color-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: transparent; /* Set button background color to transparent */
+    color: white; /* Set button text color to white */
+    border: 2px solid white; /* Add border to button */
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
